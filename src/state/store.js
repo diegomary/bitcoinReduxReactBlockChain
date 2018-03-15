@@ -7,7 +7,8 @@ import { composeWithDevTools } from "redux-devtools-extension/developmentOnly";
 export default createStore(
 	reducers,
 	{		
-		wallet: []
+		wallet: [],
+		walletObject: { Wallet:{}}
 	},
 	compose(applyMiddleware(thunk))
 );
