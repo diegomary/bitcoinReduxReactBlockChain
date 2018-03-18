@@ -8,7 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 import store from "./state/store";
 
 
-ReactDOM.render( <Provider store = {store}><Bitcoin1/></Provider>, document.getElementById("root") );
+ReactDOM.render( <Provider store = {store}><Bitcoin/></Provider>, document.getElementById("root") );
 registerServiceWorker();
 
 
